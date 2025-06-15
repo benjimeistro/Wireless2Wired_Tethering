@@ -9,9 +9,9 @@ Firstly, setup a Wi-Fi tethering hotspot from your phone or MiFi device.
 Click on the Wi-Fi network with the name of your newly created hotspot and type in the applicable PSK for your hotspot network.
 
 Wireless machine: 
-Wireless > MyNewAP click on the broadcasted SSID and type in the PSK you created.
+Browse to Wireless > Click on the broadcasted SSID (My_New_AP) and type in the PSK you created.
 
-Open network connections on your machine with wireless. Go to the ethernet port network on your wireless machine to be a shared port.
+Open network connections on your machine with the new wireless connection. Go to the ethernet port network on your wireless machine and set it to be a shared port.
 
 network connections > Ethernet (eth0) or netplan- > IPv4 Settings >  Shared to other computers.
 
