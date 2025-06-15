@@ -76,9 +76,9 @@ PING google.com (142.250.187.238) 56(84) bytes of data.
 64 bytes from lhr25s34-in-f14.1e100.net (142.250.187.238): icmp_seq=1 ttl=109 time=32.0 ms
 64 bytes from lhr25s34-in-f14.1e100.net (142.250.187.238): icmp_seq=2 ttl=109 time=268 ms
 ```
-Great! You should now have connectivity to the internet.
+**Great! You should now have connectivity to the internet.**
 
-If you wish to you can also install AdGuard adblocker from the snap store on the wirelessly connected machine.
+*If you wish to you can also install AdGuard adblocker from the snap store on the wirelessly connected machine details below.*
 
 ```sudo snap install adguard-home```
 
