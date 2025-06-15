@@ -23,7 +23,8 @@ Note: On the wireless machine you will also need to allow ports for DHCP and DNS
 sudo ufw allow bootps comment 'Allow 67/UDP'
 sudo ufw allow bootpc comment 'Allow 68/UDP'
 sudo ufw allow 53/udp comment 'Allow DNS_53/UDP'
-sudo ufw allow 53/tcp comment 'Allow DNS_53/TCP'```
+sudo ufw allow 53/tcp comment 'Allow DNS_53/TCP'
+```
 
 Open a terminal and check with ip addr or ifconfig on the wirelessly connected machine you should see three interfaces.
 
