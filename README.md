@@ -15,7 +15,7 @@ Open network connections on your machine with the new wireless connection. Go to
 
 network connections > Ethernet (eth0) or netplan- > IPv4 Settings >  Shared to other computers.
 
-You “should” get an address in the 10.42.0.* range eg 10.42.0.42 auto assigned from the wireless connected machine on the wired machine, I found that setting a DNS server to the shared connection IP helped with the initial setup e.g 10.42.0.1
+You “should” get an address in the 10.42.0.* range eg 10.42.0.35 auto assigned from the wireless connected machine on the wired machine, I found that setting a DNS server to the shared connection IP helped with the initial setup e.g 10.42.0.1
 
 Note: On the wireless machine you will also need to allow ports for DHCP and DNS to go through your firewall and allow forwarding from the wireless interface to the ethernet interface.
 
