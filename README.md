@@ -127,7 +127,7 @@ eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group d
 ```
 Copy your link/ether address and paste it into your DHCP leases along with the address you would like to statically set the wired machines address to.
 
-Optional: set static address on wired machine.
+*Optional: set static address on wired machine. (I found that by doing this I had a connection everytime after unplugging and plugging in the machine).*
 
 Network connections > ethernet connection > ipv4 settings > manual 
 ```
