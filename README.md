@@ -80,7 +80,7 @@ Great! You should now have connectivity to the internet.
 
 If you wish to you can also install AdGuard adblocker from the snap store on the wirelessly connected machine.
 
-sudo snap install adguard-home
+```sudo snap install adguard-home```
 
 After installing the snap packages on the wireless machine goto 127.0.0.1:3000 and set the interfaces to all, unplug the ethernet from the wired machine to allow adguard to access the port.
 
@@ -90,13 +90,13 @@ You should be prompted to create a password to login to AdGuard home. Keep this 
 
 Check the ping to the wireless machine from the wired machine. 
 
-Open terminal: ping 10.42.0.1
+Open terminal: ```ping 10.42.0.1
 
  PING 10.42.0.1 (10.42.0.1) 56(84) bytes of data.
 64 bytes from 10.42.0.1: icmp_seq=1 ttl=64 time=1.07 ms
 64 bytes from 10.42.0.1: icmp_seq=2 ttl=64 time=0.947 ms
 64 bytes from 10.42.0.1: icmp_seq=3 ttl=64 time=1.16 ms
-
+```
 Browse to a couple of websites on your wired machine ensuring that you still have internet connectivity on your wired connection.
 
 So now try to open adguards dashboard on your wireless machine. 
@@ -109,22 +109,22 @@ Open a web browser on your wired machine: goto http://10.42.0.1 type in the user
 
 Settings > DHCP settings > Add static address: 10.42.0.35  take the MAC address from the wired machine. 
 
-Wired machine > open terminal > ip addr 
-
+Wired machine > open terminal > ```ip addr``` 
+```
 eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
     link/ether XX:XX:XX:XX:XX:XX brd ff:ff:ff:ff:ff:ff
     inet 10.42.0.35/24 brd 10.42.0.255 scope global noprefixroute eth0
-
+```
 Copy your link/ether address and paste it into your DHCP leases along with the address you would like to statically set the wired machines address to.
 
 Optional: set static address on wired machine.
 
 Network connections > ethernet connection > ipv4 settings > manual 
-
+```
 Address     	Netmask	Gateway
 10.42.0.35 	24 		10.42.0.1
 
 DNS Servers:
 10.42.0.1
-
+```
 That’s it! You should be able to now browse the internet on both your wired and wirelessly connected machines via hotspot with AdBlocking included. 
