@@ -47,7 +47,7 @@ eth0 <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group de
 ```
 The parts your interested in are on the eth0 interface. This is your ethernet port.
  
-Go to your wired connected machine and launch a terminal and run the same command (ip addr)
+Go to your wired connected machine and launch a terminal and run the same command ```ip addr``` output should look something like the below code.
 ```
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
