@@ -27,7 +27,7 @@ sudo ufw allow 53/udp comment 'Allow DNS_53/UDP'
 sudo ufw allow 53/tcp comment 'Allow DNS_53/TCP'
 ```
 
-Open a terminal and check with ip addr or ifconfig on the wirelessly connected machine you should see three interfaces.
+Open a terminal and check with ```ip addr``` or ```ifconfig``` on the wirelessly connected machine you should see three interfaces.
 
 For instance: 
 ```
