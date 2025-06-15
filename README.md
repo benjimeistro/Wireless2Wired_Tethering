@@ -113,7 +113,9 @@ Open a Web browserand browse to http://127.0.0.1 you should see queries coming i
 
 From here you can enable the DHCP server on adguard and set a static IP on the MAC address for the wired machine. 
 
-Open a web browser on your wired machine: goto http://10.42.0.1 type in the username and password created eariler.
+Open a web browser on your wired machine: goto http://10.42.0.1 type in the username and password created eariler in the AdGuard setup process.
+
+*Optional: Set a static address on the wired machine*
 
 Settings > DHCP settings > Add static address: 10.42.0.35  take the MAC address from the wired machine. 
 
