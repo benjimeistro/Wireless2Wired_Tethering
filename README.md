@@ -96,7 +96,7 @@ Click next and finish and reconnect your wired connection.
 
 You should be prompted to create a password to login to AdGuard home. Keep this handy as you will need it later.
 
-Check the ping to the wireless machine from the wired machine. 
+Check the ping to the wireless machine *10.42.0.1* from the wired machine *10.42.0.35*. 
 
 Open terminal: ```ping 10.42.0.1```
 ```
