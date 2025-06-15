@@ -131,7 +131,7 @@ Optional: set static address on wired machine.
 
 Network connections > ethernet connection > ipv4 settings > manual 
 ```
-Address     	Netmask	   Gateway
+Address     	Netmask	       Gateway
 10.42.0.35 	    24          10.42.0.1
 ```
 ```
