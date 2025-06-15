@@ -133,7 +133,8 @@ Network connections > ethernet connection > ipv4 settings > manual
 ```
 Address     	Netmask	Gateway
 10.42.0.35 	24 		10.42.0.1
-
+```
+```
 DNS Servers:
 10.42.0.1
 ```
