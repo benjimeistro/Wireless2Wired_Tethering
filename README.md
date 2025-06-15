@@ -20,11 +20,11 @@ You “should” get an address in the 10.42.0.* range eg 10.42.0.42 auto assign
 Note: On the wireless machine you will also need to allow ports for DHCP and DNS to go through your firewall and allow forwarding from the wireless interface to the ethernet interface.
 
 ```ufw route allow in on wlan0 out on eth0```
-```sudo ufw allow bootps comment 'Allow 67/UDP'
-sudo ufw allow bootpc comment 'Allow 68/UDP'
-sudo ufw allow 53/udp comment 'Allow DNS_53/UDP'
-sudo ufw allow 53/tcp comment 'Allow DNS_53/TCP'
-```
+```sudo ufw allow bootps comment 'Allow 67/UDP'```
+```sudo ufw allow bootpc comment 'Allow 68/UDP'```
+```sudo ufw allow 53/udp comment 'Allow DNS_53/UDP'```
+```sudo ufw allow 53/tcp comment 'Allow DNS_53/TCP'```
+
 Open a terminal and check with ip addr or ifconfig on the wirelessly connected machine you should see three interfaces.
 
 For instance: 
