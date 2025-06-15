@@ -22,7 +22,7 @@ You will also need to allow ports for DHCP and DNS to go through your firewall a
 Open a terminal and check with ip addr or ifconfig on the wirelessly connected machine you should see three interfaces.
 
 For instance: 
-
+```
 lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
     inet 127.0.0.1/8 scope host lo
@@ -36,11 +36,11 @@ eth0 <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group de
     link/ether 00:00:00:00:00 brd ff:ff:ff:ff:ff:ff
     inet 10.42.0.1/24 brd 10.42.0.255  scope global noprefixroute eth0
        valid_lft forever preferred_lft forever
-
+```
 The parts your interested in are on the eth0 interface. This is your ethernet port.
  
 Go to your wired connected machine and launch a terminal and run the same command (ip addr)
-
+```
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
     inet 127.0.0.1/8 scope host lo
@@ -51,7 +51,7 @@ Go to your wired connected machine and launch a terminal and run the same comman
     link/ether 00:00:00:00:00:00 brd ff:ff:ff:ff:ff:ff
     inet 10.42.0.35/24 brd 10.42.0.255 scope global noprefixroute eth0
        valid_lft forever preferred_lft forever
-
+```
 You can see here that your ip address is 10.42.0.35 on a 24 bit subnet.
 
 Open network connections select the ethernet connection.
@@ -60,22 +60,22 @@ Set the DNS servers to 10.42.0.1 or the corresponding address on your wireless m
 
 Try to ping the wireless machine 
 
-Open a terminal > ping 10.42.0.1
-
+Open a terminal > ```ping 10.42.0.1```
+```
 ping 10.42.0.1
 PING 10.42.0.1 (10.42.0.1) 56(84) bytes of data.
 64 bytes from 10.42.0.1: icmp_seq=1 ttl=64 time=0.892 ms
 64 bytes from 10.42.0.1: icmp_seq=2 ttl=64 time=1.08 ms
 64 bytes from 10.42.0.1: icmp_seq=3 ttl=64 time=0.955 ms
 64 bytes from 10.42.0.1: icmp_seq=4 ttl=64 time=0.889 ms
-
+```
 Now try to ping googles name servers using the same command from an open terminal. 
 
-ping google.com
+```ping google.com
 PING google.com (142.250.187.238) 56(84) bytes of data.
 64 bytes from lhr25s34-in-f14.1e100.net (142.250.187.238): icmp_seq=1 ttl=109 time=32.0 ms
 64 bytes from lhr25s34-in-f14.1e100.net (142.250.187.238): icmp_seq=2 ttl=109 time=268 ms
-
+```
 Great! You should now have connectivity to the internet.
 
 If you wish to you can also install AdGuard adblocker from the snap store on the wirelessly connected machine.
