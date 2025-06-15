@@ -90,8 +90,8 @@ You should be prompted to create a password to login to AdGuard home. Keep this 
 
 Check the ping to the wireless machine from the wired machine. 
 
-Open terminal: ```ping 10.42.0.1
-
+Open terminal: ```ping 10.42.0.1```
+```
  PING 10.42.0.1 (10.42.0.1) 56(84) bytes of data.
 64 bytes from 10.42.0.1: icmp_seq=1 ttl=64 time=1.07 ms
 64 bytes from 10.42.0.1: icmp_seq=2 ttl=64 time=0.947 ms
