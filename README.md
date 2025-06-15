@@ -109,7 +109,7 @@ Browse to a couple of websites on your wired machine ensuring that you still hav
 
 So now try to open adguards dashboard on your wireless machine. 
 
-Web browser: http://127.0.0.1 you should see queries coming in from the wired machine. 
+Open a Web browserand browse to http://127.0.0.1 you should see queries coming in from the wired machine. 
 
 From here you can enable the DHCP server on adguard and set a static IP on the MAC address for the wired machine. 
 
