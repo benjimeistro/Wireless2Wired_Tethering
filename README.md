@@ -2,7 +2,7 @@
 Tethering Wireless Ubuntu to Wired Debian system.
 Some notes pertaining to a method used to allow tethering via a hotspot (Wi-Fi) to a shared wired ethernet connection on Ubuntu/ Debian.
 
-*italic text*Disclaimer: These are personal notes to allow a wirelessly tethered machine to be connected to a wired system to allow internet access on the wired network. I am not responsible for any issues that you may encounter from trying to follow these instructions.*italic text*
+*Disclaimer: These are personal notes to allow a wirelessly tethered machine to be connected to a wired system to allow internet access on the wired network. I am not responsible for any issues that you may encounter from trying to follow these instructions.*
 
 Firstly, setup a Wi-Fi tethering hotspot from your phone or MiFi device. 
 
