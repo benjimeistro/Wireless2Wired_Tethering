@@ -78,7 +78,7 @@ PING google.com (142.250.187.238) 56(84) bytes of data.
 ```
 **Great! You should now have connectivity to the internet.**
 
-*If you wish to you can also install AdGuard adblocker from the snap store on the wirelessly connected machine details below.*
+*If you wish to you can also install AdGuard adblocker from the snap store on the wirelessly connected machine details below. Thanks to the the AdGuard home team. Donate if you can*
 
 ```sudo snap install adguard-home```
 
