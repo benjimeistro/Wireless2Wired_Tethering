@@ -17,7 +17,9 @@ network connections > Ethernet (eth0) or netplan- > IPv4 Settings >  Shared to o
 
 You “should” get an address in the 10.42.0.* range eg 10.42.0.42 auto assigned from the wireless connected machine on the wired machine, I found that setting a DNS server to the shared connection IP helped with the initial setup e.g 10.42.0.1
 
-You will also need to allow ports for DHCP and DNS to go through your firewall and allow forwarding from the wireless interface to the ethernet interface. 
+You will also need to allow ports for DHCP and DNS to go through your firewall and allow forwarding from the wireless interface to the ethernet interface.
+
+```ufw route allow in on wlan0 out on eth0```
 
 Open a terminal and check with ip addr or ifconfig on the wirelessly connected machine you should see three interfaces.
 
